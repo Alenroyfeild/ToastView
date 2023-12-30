@@ -13,6 +13,12 @@
 		1D2E30C52AF8F55B00856143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D2E30C32AF8F55B00856143 /* Main.storyboard */; };
 		1D2E30C72AF8F55D00856143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2E30C62AF8F55D00856143 /* Assets.xcassets */; };
 		1D2E30CA2AF8F55D00856143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D2E30C82AF8F55D00856143 /* LaunchScreen.storyboard */; };
+		1D2E30D22AF8F5D600856143 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E30D12AF8F5D600856143 /* ToastView.swift */; };
+		1D2E30D42AF8F62000856143 /* UIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E30D32AF8F62000856143 /* UIUtil.swift */; };
+		1D2E30D72AFBC80E00856143 /* ToastViewTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E30D62AFBC80E00856143 /* ToastViewTheme.swift */; };
+		1D2E30D92AFBC86300856143 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E30D82AFBC86300856143 /* MessageView.swift */; };
+		1D2E30DB2AFBC89200856143 /* AppleToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E30DA2AFBC89200856143 /* AppleToastView.swift */; };
+		1D6EC46D2B3FD87700306CC0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6EC46C2B3FD87700306CC0 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		1D2E30C62AF8F55D00856143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D2E30C92AF8F55D00856143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D2E30CB2AF8F55D00856143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D2E30D12AF8F5D600856143 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		1D2E30D32AF8F62000856143 /* UIUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtil.swift; sourceTree = "<group>"; };
+		1D2E30D62AFBC80E00856143 /* ToastViewTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewTheme.swift; sourceTree = "<group>"; };
+		1D2E30D82AFBC86300856143 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		1D2E30DA2AFBC89200856143 /* AppleToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleToastView.swift; sourceTree = "<group>"; };
+		1D6EC46C2B3FD87700306CC0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		1D2E30BC2AF8F55B00856143 /* ToastView */ = {
 			isa = PBXGroup;
 			children = (
+				1D2E30D52AF8F95400856143 /* Sources */,
 				1D2E30BD2AF8F55B00856143 /* AppDelegate.swift */,
 				1D2E30BF2AF8F55B00856143 /* SceneDelegate.swift */,
 				1D2E30C12AF8F55B00856143 /* ViewController.swift */,
@@ -65,6 +78,19 @@
 				1D2E30CB2AF8F55D00856143 /* Info.plist */,
 			);
 			path = ToastView;
+			sourceTree = "<group>";
+		};
+		1D2E30D52AF8F95400856143 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1D2E30D32AF8F62000856143 /* UIUtil.swift */,
+				1D2E30D12AF8F5D600856143 /* ToastView.swift */,
+				1D2E30D62AFBC80E00856143 /* ToastViewTheme.swift */,
+				1D2E30D82AFBC86300856143 /* MessageView.swift */,
+				1D2E30DA2AFBC89200856143 /* AppleToastView.swift */,
+				1D6EC46C2B3FD87700306CC0 /* Extensions.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2E30D22AF8F5D600856143 /* ToastView.swift in Sources */,
+				1D6EC46D2B3FD87700306CC0 /* Extensions.swift in Sources */,
 				1D2E30C22AF8F55B00856143 /* ViewController.swift in Sources */,
+				1D2E30D72AFBC80E00856143 /* ToastViewTheme.swift in Sources */,
 				1D2E30BE2AF8F55B00856143 /* AppDelegate.swift in Sources */,
+				1D2E30D42AF8F62000856143 /* UIUtil.swift in Sources */,
+				1D2E30D92AFBC86300856143 /* MessageView.swift in Sources */,
 				1D2E30C02AF8F55B00856143 /* SceneDelegate.swift in Sources */,
+				1D2E30DB2AFBC89200856143 /* AppleToastView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
