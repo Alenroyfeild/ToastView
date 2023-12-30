@@ -8,8 +8,6 @@ The ToastView Sample App is a simple iOS application that demonstrates the usage
    - Utilizes a single shared instance of ToastView.
    - Calls `ToastView.shared.showToast(...)` to display toast messages.
    - Convenient for scenarios where a single global toast view is sufficient.
-   
-![shared](ToastView/Resources/shared.png)
 
 <!-- Responsive Image using HTML -->
 <p align="center">
@@ -20,8 +18,6 @@ The ToastView Sample App is a simple iOS application that demonstrates the usage
    - Uses multiple instances of ToastView.
    - Calls `ToastView().showToast(...)` to display toast messages.
    - Useful when you need separate and independent toast views.
-   
-![isolated](ToastView/Resources/isolated.png)
 
 <!-- Responsive Image using HTML -->
 <p align="center">
