@@ -11,12 +11,22 @@ The ToastView Sample App is a simple iOS application that demonstrates the usage
    
 ![shared](ToastView/Resources/shared.png)
 
+<!-- Responsive Image using HTML -->
+<p align="center">
+  <img src="ToastView/Resources/shared.png" alt="shared" style="max-width: 50%; height: auto;">
+</p>
+
 2. **Isolated Instance Usage**
    - Uses multiple instances of ToastView.
    - Calls `ToastView().showToast(...)` to display toast messages.
    - Useful when you need separate and independent toast views.
    
 ![isolated](ToastView/Resources/isolated.png)
+
+<!-- Responsive Image using HTML -->
+<p align="center">
+  <img src="ToastView/Resources/isolated.png" alt="isolated" style="max-width: 50%; height: auto;">
+</p>
 
 3. **Customizable Themes**
    - Provides a `ToastViewTheme` class for customizing the appearance of toast messages.
